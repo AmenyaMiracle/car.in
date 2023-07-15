@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>CAR.IN</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-taxi-wifi-line"></i>
+                    CAR.IN
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                           <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                         </li>
+                         <li class="nav__item">
+                            <a href="#popular" class="nav__link">Preview</a>
+                         </li>
+                         <li class="nav__item">
+                            <a href="#featured" class="nav__link">Featured</a>
+                         </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-4-fill"></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="shape shape__big"></div>
+                <div class="shape shape__small"></div>
+                <div class="home__container container grid">
+                    <div class="home__data">
+                       <h1 class="home__title">
+                          WELCOME TO CAR.IN
+                       </h1>
+
+                       <h2 class="home__subtitle">
+                           Let Your Car Speak
+                       </h2>
+
+                       <div class="home__elec">
+                          <i class="ri-flashlight-fill"></i>
+                          Electric Car
+                       </div>
+                    </div>
+                    
+                    <img src="assets/img/featured3.png " class="home__img">
+
+                    <div class="home__car">
+                        <div class="home__car-data">
+                              <div class="home__car-icon">
+                                <i class="ri-temp-cold-fill"></i>
+                              </div>
+                              <h2 class="home__car-number">20°</h2>
+                              <h3 class="home__car-name">Temperature</h3>
+                        </div>
+
+                        <div class="home__car-data">
+                            <div class="home__car-icon">
+                                <i class="ri-taxi-wifi-fill"></i>
+                            </div>
+                            <h2 class="home__car-number">Trust</h2>
+                            <h3 class="home__car-name">Car.GO</h3>
+                      </div>
+
+                      <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-contrast-drop-2-fill"></i>
+                        </div>
+                        <h2 class="home__car-number">Real</h2>
+                        <h3 class="home__car-name">Design</h3>
+                  </div>
+
+                    </div>
+                    
+                    <a href="#" class="home__button">START</a>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__group">
+                      <img src="assets/img/CARnew.jpg" alt="" class="about__img">
+
+                      <div class="about__card">
+                         <h3 class="about__card-title">CAR.GO</h3>
+                         <p class="about__card-description">
+                              Cars With Less Budget Free
+                         </p>
+                      </div>
+                    </div>
+
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Your Car, Your Brand
+                        </h2>
+
+                        <p class="about__description">
+                           Unlock a world of automotive excellence tailored to your unique style, with our exceptional lineup of vehicles designed to elevate your driving experience.
+                        </p>
+
+                        <a href="#" class="button">Know More</a>
+                    </div>
+                </div>
+                
+            </section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+                <h2 class="section__title">
+                   Preview CAR.IN Cars <br>MOST VIEW
+                </h2>
+
+                <div class="popular__container container">
+                    <div class="swiper-wrapper">
+                    <article class="popular__card">
+                        <div class="shape shape__smaller"></div>
+
+                        <h1 class="popular__title">PORSCHE</h1>
+                        <h3 class="popular__sutitle">CAR.IN</h3>
+
+                        <img src="assets/img/popular5.png" alt="" class="popular__img">
+
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-fill"></i> 2.8 sec
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-charging-pile-2-fill"></i> 322km/h
+                            </div>
+                        </div>
+
+                        <h3 class="popular__price">$149,590</h3>
+
+                        <button class="button popular__button">
+                            <i class="ri-shopping-bag-3-fill"></i>
+                        </button>
+                    </article>
+                </div>
+                    
+
+                <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section" id="featured">
+                <h2 class="section__title">
+                    TOP FEATURED LUXURY CARS
+              </h2>
+
+              <div class="featured__container container">
+                 <ul class="featured__filters">
+                     <li>
+                        <button class="featured__item active-featured" data-filter="all">
+                              <span>ALL</span>
+                        </button>
+                     </li>
+                     <li>
+                        <button class="featured__item" data-filter=".audi">
+                              <img src="assets/img/logo2.png" alt="">
+                        </button>
+                     </li>
+                     <li>
+                        <button class="featured__item" data-filter=".bmw">
+                              <img src="assets/img/logo5.png">
+                        </button>
+                     </li>
+                 </ul>
+
+
+                 <div class="featured__content grid">
+                     <article class="featured__card mix audi">
+                          <div class="shape shape__smaller"></div>
+
+
+                          <hi class="featured__title">CAR.IN AUDI</hi>
+
+                          <h3 class="featured__subtitle">MODEL A</h3>
+
+
+                          <img src="assets/img/featured3.png" alt="" class="featured__img">
+
+                          <h3 class="featured__price">$78,900</h3>
+
+                          <button class="button featured__button">
+                            <i class="ri-shopping-bag-3-fill"></i>
+                          </button>
+                     </article>
+
+
+                     <article class="featured__card mix bmw">
+                        <div class="shape shape__smaller"></div>
+
+
+                        <hi class="featured__title">CAR.IN</hi>
+
+                        <h3 class="featured__subtitle">MODEL B</h3>
+
+
+                        <img src="assets/img/popular2.png" alt="" class="featured__img">
+
+                        <h3 class="featured__price">$50,000</h3>
+
+                        <button class="button featured__button">
+                          <i class="ri-shopping-bag-3-fill"></i>
+                        </button>
+                   </article>
+
+
+                   <article class="featured__card mix audi">
+                    <div class="shape shape__smaller"></div>
+
+
+                    <hi class="featured__title">CAR.IN AUDI</hi>
+
+                    <h3 class="featured__subtitle">MODEL R</h3>
+
+
+                    <img src="assets/img/CAR4-removebg-preview.png" alt="" class="featured__img">
+
+                    <h3 class="featured__price">$80,300</h3>
+
+                    <button class="button featured__button">
+                      <i class="ri-shopping-bag-3-fill"></i>
+                    </button>
+               </article>
+
+               <article class="featured__card mix bmw">
+                <div class="shape shape__smaller"></div>
+
+
+                <hi class="featured__title">CAR.IN</hi>
+
+                <h3 class="featured__subtitle">MODEL U</h3>
+
+
+                <img src="assets/img/popular3.png" alt="" class="featured__img">
+
+                <h3 class="featured__price">$54,800</h3>
+
+                <button class="button featured__button">
+                  <i class="ri-shopping-bag-3-fill"></i>
+                </button>
+           </article>
+                 </div>
+              </div>
+            </section>
+
+            <!--==================== OFFER ====================-->
+            <section class="offer section">
+                <div class="offer__container container grid">
+                   
+
+                    <div class="offer__data">
+                        <h2 class="section__title offer__title">
+                            DO YOU WANT TO RECIEVE <br> THE BEST OFFERS FROM CAR.IN?
+                        </h2>
+
+                        <P class="offer__description">
+                             
+                        Be the first to stay ahead of the curve and receive exclusive updates on our latest products and new car releases by subscribing to our mailing list. Stay connected and never miss a beat as we unveil the future of automotive innovation straight to your inbox.
+                        </P>
+
+                        <a href="#" class="button">
+                             SUBSCRIBED NOW
+                        </a>
+                    </div>
+                    <img src="assets/img/CAR4-removebg-preview.png" alt="" class="offer__img">
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                <div class="logos__container container grid">
+                       <div class="logos__content">
+                           <img src="assets/img/logo9.png" alt="" class="logos__img">
+                       </div>
+                       <div class="logos__content">
+                        <img src="assets/img/logo2.png" alt="" class="logos__img">
+                    </div>
+                    <div class="logos__content">
+                        <img src="assets/img/logo5.png" alt="" class="logos__img">
+                    </div>
+                    <div class="logos__content">
+                        <img src="assets/img/logo4.png" alt="" class="logos__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+
+            <div class="footer__container container grid">
+                   <div class="footer__content">
+                       <a href="#" class="footer__logo">
+                        <i class="ri-taxi-wifi-line"></i>CAR.IN
+                       </a>
+                       
+                       <p class="footer__description">
+                        Experience automotive excellence like never<br> before with our selection of the world's most<br> recognized and prestigious car brands.
+                       </p>
+                   </div>
+                   
+                   <div class="footer__content">
+                    <h3 class="footer__title">
+                      Company
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                           <a href="#" class="footer__links">About</a> 
+                        </li>
+                        <li>
+                            <a href="#" class="footer__links">History</a> 
+                         </li>
+                         <li>
+                            <a href="#" class="footer__links">Shop</a> 
+                         </li>
+                         <li>
+                            <a href="#" class="footer__links">Cars</a> 
+                         </li>
+                    </ul>
+
+                   </div>
+
+                   <div class="footer__content">
+                    <h3 class="footer__title">
+                        Resources
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                           <a href="#" class="footer__links">Blog</a> 
+                        </li>
+                        <li>
+                            <a href="#" class="footer__links">Contact</a> 
+                         </li>
+                         <li>
+                            <a href="#" class="footer__links">Settings</a> 
+                         </li>
+                         <li>
+                            <a href="#" class="footer__links">Terms</a> 
+                         </li>
+                    </ul>
+
+                   </div>
+
+                   <div class="footer__content">
+                    <h3 class="footer__title">
+                        Infomation
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                           <a href="#" class="footer__links">Find a dealer</a> 
+                        </li>
+                        <li>
+                            <a href="#" class="footer__links">Carrers</a> 
+                         </li>
+                         <li>
+                            <a href="#" class="footer__links">Services</a> 
+                         </li>
+                         <li>
+                            <a href="#" class="footer__links">Privacy</a> 
+                         </li>
+                    </ul>
+
+                   </div>
+
+                   <div class="footer__content">
+                    <h3 class="footer__title">
+                      Follow us
+                    </h3>
+
+                     <ul class="footer__social">
+                          <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                          </a>
+                          <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                             <i class="ri-instagram-line"></i>
+                          </a>
+                          <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+                                 <i class="ri-twitter-line"></i>
+                          </a>
+                     </ul>
+                   </div>
+            </div>
+
+            <span class="footer__copy">
+                 &#169; CAR.IN. ALL RIGHTS RESERVED
+            </span>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+              <i class="ri-arrow-up-line"></i>
+        </a>
+
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MIXITUP JS ===============-->
+        <script src="assets/js/mixitup.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
